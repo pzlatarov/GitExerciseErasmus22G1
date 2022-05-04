@@ -11,6 +11,7 @@ namespace GitUnitTestDemo
         public static Math math;
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
             Console.WriteLine("Simple Calculator");
             EnterValues();
             int operation = -1;
